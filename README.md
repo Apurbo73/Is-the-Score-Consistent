@@ -47,3 +47,6 @@ This logic suggests you can "upgrade" from `(A, B)` to `(C, D)` only if **both**
 
 ---
 
+This C++ program reads multiple test cases where each test consists of two pairs of integers: the original pair (A, B) and the target pair (C, D). For each test case, the program checks if it's possible to go from the original to the target pair without decreasing either value. If both C >= A and D >= B, the program considers the transition "POSSIBLE"; otherwise, it outputs "IMPOSSIBLE".
+
+This logic simulates a scenario where both components in a pair must either stay the same or increase — resembling upgrade or growth conditions. It ensures that no part of the original values gets worse in the transformation, making it a simple check for non-decreasing transitions in a 2D value space.
