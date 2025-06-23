@@ -47,4 +47,3 @@ This logic suggests you can "upgrade" from `(A, B)` to `(C, D)` only if **both**
 
 ---
 
-Let me know if you’d like a [visual explanation](f), [code walk-through with comments](f), or [sample inputs and outputs](f).
